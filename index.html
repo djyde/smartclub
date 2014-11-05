@@ -3,25 +3,23 @@
     <title>History</title>
     <link rel="stylesheet" type="text/css" href="static/css/main.css" />
     <link rel="stylesheet" type="text/css" href="static/css/typo.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/index.css" />
     <link rel="stylesheet" type="text/css" href="static/css/pgwslider.min.css">
+
     <script type="text/javascript" src="static/js/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="static/js/pgwslider.min.js"></script>
 
     <script type="text/javascript">
       $(document).ready(function(){
-        $('.pgwSlider').pgwSlider();
+        $('.pgwSlider').pgwSlider({
+          transitionEffect: 'sliding',
+          displayList: false,
+          displayControls: true,
+          maxHeight: '500',
+          verticalCentering: true
+        });
       })
     </script>
-
-    <style type="text/css">
-      .pgwSlider b{
-        color: white;
-      }
-
-      body{
-        background-color: black;
-      }
-    </style>
   </head>
 
   <body>
@@ -41,29 +39,32 @@
       </div>
     </div>
 
-    <div id="container">
+
+      <div id="slider">
+      
       <ul class="pgwSlider">
 
         <li>
           <a href="#">
-            <img src="static/images/test.jpg">
+            <img src="http://ww1.sinaimg.cn/bmiddle/68f4ec25jw1elpp5gt970j21kw11xwpg.jpg">
             <span>SmartClub 华工站</span>
           </a>
         </li>
         <li>
           <a href="#">
-            <img src="static/images/test.jpg" />
-            <span>SmartClub 华工站</span>
+            <img src="http://ww1.sinaimg.cn/bmiddle/68f4ec25jw1elpp5v0biij21kw11x47t.jpg" />
+            <span>SmartClub 广工站</span>
           </a>
         </li>
         <li>
           <a href="#">
-            <img src="static/images/test.jpg" />
+            <img src="http://ww3.sinaimg.cn/bmiddle/68f4ec25jw1elpp5rr1pgj21kw11x0yv.jpg" />
             <span>SmartClub 华工站</span>
           </a>
         </li>
       </ul>
-    </div>
+      </div>
+
     
 
     <div id="footer">
