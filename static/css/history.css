@@ -1,0 +1,49 @@
+a{
+	color: #000000;
+}
+
+.post{
+	margin: auto;
+	width: 770px;
+	background-color: white;
+	padding: 18px;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	overflow: hidden;
+}
+
+.post img{
+	width: 240;
+	height: 240;
+}
+
+.post #image{
+	float: left;
+	margin-right: 20px;
+}
+
+.post #text{
+	overflow: hidden;
+}
+
+.post #head{
+	margin: 0;
+	border-left: 4px solid red;
+	padding-left: 8px;
+	margin-bottom: 10px;
+}
+
+.post #head p{
+	margin: 0;
+}
+
+.post #title{
+	margin-bottom: 10px;
+	font-size: 32px;
+}
+
+.post #content{
+	text-overflow: ellipsis;
+	max-height: 200px;
+	line-height: 40px;
+}
