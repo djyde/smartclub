@@ -45,3 +45,19 @@
         </div>
 </div>
 ```
+
+#####`index.html`: 首页Gallery
+<div id="slider">
+      
+      <ul class="pgwSlider">
+        <!-- 以下规则请参照 http://pgwjs.com/pgwslider/ -->
+        <li>
+          <a href="#"> <!-- 跳转连接 -->
+            <img src="http://ww1.sinaimg.cn/bmiddle/68f4ec25jw1elpp5gt970j21kw11xwpg.jpg">
+            <span>SmartClub 华工站</span> <!-- 描述 -->
+          </a>
+        </li>
+
+      </ul>
+</div>
+```
