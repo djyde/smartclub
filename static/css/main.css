@@ -1,6 +1,11 @@
 body{
 	margin: 0;
 	padding: 0;
+	background-color: #E5E5E5;
+}
+
+a{
+	text-decoration: none;
 }
 
 #header{
@@ -11,6 +16,7 @@ body{
 #container{
 	width: 960px;
 	margin: auto;
+	margin-top: 20px;
 }
 
 .nav{
@@ -26,8 +32,11 @@ body{
 }
 
 .nav ul li{
-	color: white;
 	font-size: 18px;
 	float: left;
-	padding: 20px;
+	padding: 14px;
+}
+
+.nav ul li a{
+	color: white;
 }
