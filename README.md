@@ -30,3 +30,16 @@
     <a href="#">阅读全文</a>
   </span>
 </div>
+```
+
+#####`post.html`: 正文
+
+```html
+<div class="post typo">
+        <h1><!-- 标题 --></h1> 
+        <p><small><!-- 日期 --></small></p> 
+        <div class="typo post">
+          <!-- 文章内容（已经 typo.css 格式化） -->
+        </div>
+</div>
+```
