@@ -3,6 +3,8 @@
 
 > `header` 和 `footer` 为全局 layout，只需在 `container` 中填充内容即可。
 
+**以下为渲染部份**
+
 #####`history.html`: 历史活动页面(blog)
 
 ```html
@@ -16,7 +18,7 @@
         
         <div id="head">
           <p id="title">Title</p><!-- 标题 -->
-          <p id="date">date</p><!-- 日期 -->
+          <small>date</small><!-- 日期 -->
         </div>
       </a>
         
