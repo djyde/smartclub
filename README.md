@@ -47,7 +47,7 @@
 ```
 
 #####`index.html`: 首页Gallery
-```
+```html
 <div id="slider">
       
       <ul class="pgwSlider">
